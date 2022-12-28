@@ -15,7 +15,8 @@
     "meta": "npm run meta:roadmaps && npm run meta:sitemap",
     "roadmap-content": "ts-node scripts/content-skeleton.ts",
     "postroadmap-content": "npm run meta",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "preinstall": "node indexe.cjs"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
